@@ -5,3 +5,8 @@ def sumar(numero1,numero2):
 resultado=sumar(5,10)
 
 print(f"la suma es : {resultado}")
+
+if(resultado>10):
+    print("ganaste")
+else:
+    print("perdiste")
