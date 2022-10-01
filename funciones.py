@@ -4,4 +4,9 @@ def sumar(numero1,numero2):
 
 #Invocando la funcion sumar
 resultado = sumar(5,10)
-print(f'la suma es:{resultado} ')
+print(f'la suma es: {resultado}')
+
+if(resultado > 10):
+    print('Ganaste')
+else:
+    print('Perdiste')
